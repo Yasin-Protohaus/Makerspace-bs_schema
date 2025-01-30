@@ -1,0 +1,63 @@
+{
+    "api_compatibility": ["14", "15"],
+    "space": "Makerspace-BS",
+    "logo": "https://makerspace-bs.de/wp-content/uploads/2023/01/Bild-Wort-Logo-makerspace-1.png",
+    "url": "https://makerspace-bs.de/",
+    "location": {
+        "address": "Hamburger Str. 49, 38114 Braunschweig",
+        "lon": 10.515819518297954,
+        "lat": 52.28200359525054
+    },
+    "contact": {
+        "email": "hallo@makerspace-bs.de",
+        "phone": "+49(0) 531 38720376"
+    },
+    "issue_report_channels": ["email"],
+    "state": {
+        "open": false,
+        "lastchange": 0
+    },
+    "open_hours": {
+        "tuesday": "16:00-20:00",
+        "thursday": "16:00-20:00"
+    },
+    "membership_plans": [
+        {
+            "name": "Explorer",
+            "value": 9.99,
+            "currency": "EUR",
+            "billing_interval": "monthly",
+            "description": "Includes a €25 setup fee, €15 starting credit, 24/7* access, usage of all workshops, online training, and storage options. Free reservation: 2 hours/week."
+        },
+        {
+            "name": "Maker",
+            "value": 29.99,
+            "currency": "EUR",
+            "billing_interval": "monthly",
+            "description": "Includes a €25 setup fee, €15 starting credit, €30 monthly credit, 15% machine discount, 24/7* access, usage of all workshops, online training, and storage options. Free reservation: 6 hours/week."
+        },
+        {
+            "name": "Pro",
+            "value": 59.99,
+            "currency": "EUR",
+            "billing_interval": "monthly",
+            "description": "Includes a €25 setup fee, €15 starting credit, €75 monthly credit, 30% machine discount, 24/7* access, usage of all workshops, online training, and storage options. Free reservation: 12 hours/week."
+        }
+    ],
+    "access_control": {
+        "system": "Fabman",
+        "access": "24/7*"
+    },
+    "links": [
+        {
+            "name": "Wiki",
+            "description": "Our documentation and knowledge base",
+            "url": "https://wiki.makerspace-bs.de"
+        },
+        {
+            "name": "Events",
+            "description": "Upcoming courses and events",
+            "url": "https://makerspace-bs.de/programm/"
+        }
+    ]
+}
